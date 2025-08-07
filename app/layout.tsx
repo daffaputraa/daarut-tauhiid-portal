@@ -16,7 +16,31 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Web Portal DT",
   description: "Portal Web Satu Pintu",
+  openGraph: {
+    title: "Web Portal DT",
+    description: "Portal Web Satu Pintu",
+    url: "https://daarut-tauhiid-portal.vercel.app/",
+    type: "website",
+    images: [
+      {
+        url: "https://opengraph.b-cdn.net/production/images/45308862-85e3-454c-9e4a-419df3449bb7.png?token=0L6RWjz87cYvF4KQZBHPWuiZDPKRB4CKPANxu3ZO-fI&height=630&width=1200&expires=33290533714",
+        width: 1200,
+        height: 630,
+        alt: "Web Portal DT",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Web Portal DT",
+    description: "Portal Web Satu Pintu",
+    site: "https://daarut-tauhiid-portal.vercel.app/",
+    images: [
+      "https://opengraph.b-cdn.net/production/images/45308862-85e3-454c-9e4a-419df3449bb7.png?token=0L6RWjz87cYvF4KQZBHPWuiZDPKRB4CKPANxu3ZO-fI&height=630&width=1200&expires=33290533714",
+    ],
+  },
 };
+
 
 export default function RootLayout({
   children,
