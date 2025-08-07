@@ -23,8 +23,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://opengraph.b-cdn.net/production/images/45308862-85e3-454c-9e4a-419df3449bb7.png?token=0L6RWjz87cYvF4KQZBHPWuiZDPKRB4CKPANxu3ZO-fI&height=630&width=1200&expires=33290533714",
-        width: 1200,
+        url : "https://opengraph.b-cdn.net/production/images/8670f164-eb14-4240-80dc-53355571f5c6.png?token=7O9eWBw1CKF3UxGjssXeEIhPPtdyhb1CfC6ZzLSmdCk&height=630&width=1200&expires=33290536567",        width: 1200,
         height: 630,
         alt: "Web Portal DT",
       },
@@ -36,10 +35,11 @@ export const metadata: Metadata = {
     description: "Portal Web Satu Pintu",
     site: "https://daarut-tauhiid-portal.vercel.app/",
     images: [
-      "https://opengraph.b-cdn.net/production/images/45308862-85e3-454c-9e4a-419df3449bb7.png?token=0L6RWjz87cYvF4KQZBHPWuiZDPKRB4CKPANxu3ZO-fI&height=630&width=1200&expires=33290533714",
+      "https://opengraph.b-cdn.net/production/images/8670f164-eb14-4240-80dc-53355571f5c6.png?token=7O9eWBw1CKF3UxGjssXeEIhPPtdyhb1CfC6ZzLSmdCk&height=630&width=1200&expires=33290536567",
     ],
   },
 };
+
 
 
 export default function RootLayout({
