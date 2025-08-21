@@ -25,7 +25,9 @@ const LeftSide = () => {
                         “Teknologi adalah karunia dan ujian dari Alloh, bisa memudahkan kita untuk memperbanyak <span className="font-semibold">KEBAIKAN</span> atau memperbanyak <span className="font-semibold">DOSA</span>.”
                         <footer className="mt-2 text-base font-medium text-white">— Aa Gym</footer>
             </blockquote>
-            <span className={`${styleLabel} hidden md:block px-4 py-2 bg-[#D48648] w-fit rounded-full text-white`}>Sekolah Daarut Tauhiid Indonesia</span>
+            <span className={`${styleLabel} hidden md:block px-4 py-2 bg-[#D48648] w-fit rounded-full text-white`}>
+                <span></span>
+                Sekolah Daarut Tauhiid Indonesia</span>
         </section>
     );
 }
