@@ -50,8 +50,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} font-sans bg-stone-200 antialiased max-h-screen box-content`}
+        className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased max-h-screen box-content`}
       >
+        <div
+          className="absolute -z-50 inset-0 bg-cover bg-center opacity-40"
+          style={{
+            backgroundImage: "url('/images/background-dt.jpg')",
+          }}
+        ></div>
         {children}
       </body>
     </html>

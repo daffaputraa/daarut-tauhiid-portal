@@ -7,33 +7,44 @@ interface CardAppProps {
     title: string;
     link: string;
     description: string;
+    button: string;
     onClick?: () => void;
 }
 
-export default function CardApp({ logo, title, description, link }: CardAppProps) {
+export default function CardApp({ logo, title, description, link, button }: CardAppProps) {
     return (
-        <div className="relative flex flex-col justify-between rounded-xl border border-stone-200 bg-white p-4 shadow-sm transition hover:shadow-md hover:bg-stone-100 hover:scale-105 cursor-pointer">   
-        <div className="top-container  flex flex-col gap-2">     
-            <header className="justify-between flex">
-                <div className="flex items-center gap-2">
-                    <Image src={logo} alt={title} width={74} height={30} className="rounded-md" />
-                    <h3 className="text-xl font-semibold text-stone-800">{title}</h3>
-                </div>
-                <ArrowUpRight className="h-5 w-5 text-stone-400" />
+      <Link href={link} className="min-h-full">
+        <div className="relative flex flex-col min-h-full justify-between rounded-xl border border-stone-200 bg-white/50 p-4 shadow-sm transition hover:shadow-md hover:bg-stone-100 hover:scale-105 cursor-pointer">
+          <div className="top-container  flex flex-col mb-3">
+            <header className="items-center flex flex-col gap-1">
+              <Image
+                src={logo}
+                alt={title}
+                width={90}
+                height={30}
+                className="rounded-md"
+              />
+              <div className="flex items-center justify-between">
+                <h3 className="text-xl text-center font-semibold text-stone-800 uppercase">
+                  {title}
+                </h3>
+                {/* <ArrowUpRight className="h-5 w-5 text-stone-400" /> */}
+              </div>
+              <p className="text-base text-stone-600">{description}</p>
             </header>
-            <p className="text-lg text-stone-600">{description}</p>
-        </div>
+          </div>
 
-        {/* Deskripsi */}
+          {/* Deskripsi */}
 
-        {/* Tombol */}
-        <Link
-            target="_blank"
+          {/* Tombol */}
+          <Link
+            // target="_blank"
             href={link}
-            className="mt-2 w-fit rounded-lg bg-stone-900 px-4 py-2 text-white shadow hover:bg-stone-700 transition"
-        >
+            className={`mt-2 text-center rounded-lg w-full ${button} px-4 py-2 text-white shadow hover:bg-stone-700 transition`}
+          >
             Masuk
-        </Link>
+          </Link>
         </div>
-  );
+      </Link>
+    );
 }
