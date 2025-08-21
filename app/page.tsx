@@ -40,7 +40,7 @@ export default function Home() {
     {
       id: 4,
       nama: "SIAKAD STAI 4.0",
-      url: "https://www.ppdb.daaruttauhiid.sch.id/haladmin",
+      url: "/tes",
       deskripsi: "Sistem Informasi Akademik",
       gambar: "/images/logo-stai.png",
       buttonColor: "bg-[#2F346C]",
@@ -58,7 +58,7 @@ export default function Home() {
       nama: "PPDB",
       url: "https://www.ppdb.daaruttauhiid.sch.id/haladmin",
       deskripsi: "Sistem Pendaftaran Siswa Baru",
-      gambar: "/images/logo-stai.png",
+      gambar: "/images/ppdb.png",
       buttonColor: "bg-[#2F346C]",
     },
   ];

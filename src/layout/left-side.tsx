@@ -21,11 +21,11 @@ const LeftSide = () => {
                     {/* <p className={`${styleSubHeader}`}>Sekolah Daarut Tauhiid Indonesia</p> */}
                 </div>
             </div>
-            <blockquote className="border-l-4 border-stone-400 italic text-stone-900 text-lg text-center leading-relaxed">
+            <blockquote className="border-l-4 border-stone-400 italic text-lg text-center leading-relaxed bg-[#898E4E] text-white px-4 py-2 rounded-2xl">
                         “Teknologi adalah karunia dan ujian dari Alloh, bisa memudahkan kita untuk memperbanyak <span className="font-semibold">KEBAIKAN</span> atau memperbanyak <span className="font-semibold">DOSA</span>.”
-                        <footer className="mt-2 text-stone-900 text-base font-medium">— Aa Gym</footer>
+                        <footer className="mt-2 text-base font-medium text-white">— Aa Gym</footer>
             </blockquote>
-            <span className={`${styleLabel} hidden md:block`}>Sekolah Daarut Tauhiid Indonesia</span>
+            <span className={`${styleLabel} hidden md:block px-4 py-2 bg-[#D48648] w-fit rounded-full text-white`}>Sekolah Daarut Tauhiid Indonesia</span>
         </section>
     );
 }
