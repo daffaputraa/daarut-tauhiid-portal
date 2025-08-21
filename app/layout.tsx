@@ -23,7 +23,8 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url : "https://opengraph.b-cdn.net/production/images/8670f164-eb14-4240-80dc-53355571f5c6.png?token=7O9eWBw1CKF3UxGjssXeEIhPPtdyhb1CfC6ZzLSmdCk&height=630&width=1200&expires=33290536567",        width: 1200,
+        url: "https://opengraph.b-cdn.net/production/images/8670f164-eb14-4240-80dc-53355571f5c6.png?token=7O9eWBw1CKF3UxGjssXeEIhPPtdyhb1CfC6ZzLSmdCk&height=630&width=1200&expires=33290536567",
+        width: 1200,
         height: 630,
         alt: "Web Portal DT",
       },
@@ -35,7 +36,7 @@ export const metadata: Metadata = {
     description: "Portal Web Satu Pintu",
     site: "https://daarut-tauhiid-portal.vercel.app/",
     images: [
-      "https://opengraph.b-cdn.net/production/images/8670f164-eb14-4240-80dc-53355571f5c6.png?token=7O9eWBw1CKF3UxGjssXeEIhPPtdyhb1CfC6ZzLSmdCk&height=630&width=1200&expires=33290536567",
+      "https://opengraph.b-cdn.net/production/images/2c42ee38-8897-4e59-a2b8-507b38d5459a.png?token=CE9_pr_ZE-woUgO1pVeTFd8zW_ixgFV_sTfjunJ-8Yg&height=622&width=1200&expires=33291751699",
     ],
   },
 };

@@ -18,7 +18,7 @@ export default function Home() {
       nama: "Mutaba'ah Yaumiyah",
       url: "https://sankar-dtr.my.id/v2/login/",
       deskripsi: "Sistem Laporan Ibadah Harian",
-      gambar: "/images/logo-stai.png",
+      gambar: "/images/logo-dt-sso-1.png",
       buttonColor: "bg-[#2F346C]",
     },
     {
@@ -26,7 +26,7 @@ export default function Home() {
       nama: "SMKI",
       url: "https://rahmatan.daaruttauhiid.org/login",
       deskripsi: "Sistem Kinerja SDM",
-      gambar: "/images/logo-stai.png",
+      gambar: "/images/logo-dt-sso.png",
       buttonColor: "bg-[#2F346C]",
     },
     {
@@ -34,7 +34,7 @@ export default function Home() {
       nama: "Presensi SDM",
       url: "https://mobile-dt.issds.id/login",
       deskripsi: "Sistem Kehadiran Karya",
-      gambar: "/images/logo-stai.png",
+      gambar: "/images/logo-dt-sso-2.png",
       buttonColor: "bg-[#2F346C]",
     },
     {

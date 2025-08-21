@@ -17,13 +17,14 @@ export default function CardApp({ logo, title, description, link, button }: Card
         <div className="relative flex flex-col min-h-full justify-between rounded-xl border border-stone-200 bg-white/50 p-4 shadow-sm transition hover:shadow-md hover:bg-stone-100 hover:scale-105 cursor-pointer">
           <div className="top-container  flex flex-col mb-3">
             <header className="items-center flex flex-col gap-1">
-              <Image
-                src={logo}
-                alt={title}
-                width={90}
-                height={30}
-                className="rounded-md"
-              />
+              <div className="relative w-[70px] h-[40px]">
+                <Image
+                  src={logo}
+                  alt={title}
+                  fill
+                  className="object-contain rounded-md"
+                />
+              </div>
               <div className="flex items-center justify-between">
                 <h3 className="text-xl text-center font-semibold text-stone-800 uppercase">
                   {title}
