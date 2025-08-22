@@ -9,6 +9,8 @@ type VendorApp = {
   deskripsi: string;
   gambar: string;
   buttonColor: string;
+  width : number, 
+  height : number
 };
 
 export default function Home() {
@@ -19,7 +21,9 @@ export default function Home() {
       url: "https://sankar-dtr.my.id/v2/login/",
       deskripsi: "Sistem Laporan Ibadah Harian",
       gambar: "/images/logo-dt-sso-1.png",
-      buttonColor: "bg-[#2F346C]",
+      buttonColor: "bg-[#B95C12]",
+      width : 30,
+      height : 30
     },
     {
       id: 2,
@@ -27,7 +31,9 @@ export default function Home() {
       url: "https://rahmatan.daaruttauhiid.org/login",
       deskripsi: "Sistem Kinerja SDM",
       gambar: "/images/logo-dt-sso.png",
-      buttonColor: "bg-[#2F346C]",
+      buttonColor: "bg-[#B95C12]",
+      width : 30,
+      height : 30
     },
     {
       id: 3,
@@ -35,7 +41,9 @@ export default function Home() {
       url: "https://mobile-dt.issds.id/login",
       deskripsi: "Sistem Kehadiran Karya",
       gambar: "/images/logo-dt-sso-2.png",
-      buttonColor: "bg-[#2F346C]",
+      buttonColor: "bg-[#B95C12]",
+      width : 30,
+      height : 30
     },
     {
       id: 4,
@@ -43,7 +51,9 @@ export default function Home() {
       url: "/tes",
       deskripsi: "Sistem Informasi Akademik",
       gambar: "/images/logo-stai.png",
-      buttonColor: "bg-[#2F346C]",
+      buttonColor: "bg-[#B95C12]",
+      width : 80,
+      height : 70
     },
     {
       id: 5,
@@ -51,7 +61,9 @@ export default function Home() {
       url: "https://edutren.id/sdti", // belum ada link
       deskripsi: "Sistem Digitalisasi Pendidikan",
       gambar: "/images/logo-edutren.png",
-      buttonColor: "bg-[#2F346C]",
+      buttonColor: "bg-[#B95C12]",
+      width : 90,
+      height : 70
     },
     {
       id: 6,
@@ -59,20 +71,25 @@ export default function Home() {
       url: "https://www.ppdb.daaruttauhiid.sch.id/haladmin",
       deskripsi: "Sistem Pendaftaran Siswa Baru",
       gambar: "/images/ppdb.png",
-      buttonColor: "bg-[#2F346C]",
+      buttonColor: "bg-[#B95C12]",
+      width : 90,
+      height : 70
     },
   ];
 
   return (
-    <div className="box-border h-screen py-3 pt-12 max-w-[1200px] px-5 md:px-0 mx-auto flex flex-col lg:grid lg:grid-cols-12 gap-9">
+    <div className="box-border h-screen py-3 pt-12 max-w-[1300px] px-5 md:px-0 mx-auto flex flex-col lg:grid lg:grid-cols-12 gap-9">
       <div className="lg:col-span-6">
         <LeftSide />
       </div>
 
+      
       <div className="card-container w-full grid grid-cols-1  md:grid-cols-2 lg:col-span-6 gap-6 md:max-h-[600px]">
         {vendorData.map((app) => (
           <CardApp
-          button={app.buttonColor}
+            height={app.height}
+            width={app.width}
+            button={app.buttonColor}
             key={app.id}
             logo={app.gambar}
             title={app.nama}
@@ -81,6 +98,7 @@ export default function Home() {
           />
         ))}
       </div>
+      
     </div>
   );
 }
