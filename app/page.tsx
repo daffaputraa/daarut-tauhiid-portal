@@ -22,8 +22,8 @@ export default function Home() {
       deskripsi: "Sistem Laporan Ibadah Harian",
       gambar: "/images/logo-dt-sso-1.png",
       buttonColor: "bg-[#B95C12]",
-      width : 30,
-      height : 30
+      width: 30,
+      height: 30,
     },
     {
       id: 2,
@@ -32,8 +32,8 @@ export default function Home() {
       deskripsi: "Sistem Kinerja SDM",
       gambar: "/images/logo-dt-sso.png",
       buttonColor: "bg-[#B95C12]",
-      width : 30,
-      height : 30
+      width: 30,
+      height: 30,
     },
     {
       id: 3,
@@ -42,18 +42,18 @@ export default function Home() {
       deskripsi: "Sistem Kehadiran Karya",
       gambar: "/images/logo-dt-sso-2.png",
       buttonColor: "bg-[#B95C12]",
-      width : 30,
-      height : 30
+      width: 30,
+      height: 30,
     },
     {
       id: 4,
       nama: "SIAKAD STAI 4.0",
-      url: "/tes",
+      url: "https://staidaaruttauhiid.operator.siakad.tech/errorlogout.php?errmesg= ",
       deskripsi: "Sistem Informasi Akademik",
       gambar: "/images/logo-stai.png",
       buttonColor: "bg-[#B95C12]",
-      width : 80,
-      height : 70
+      width: 80,
+      height: 70,
     },
     {
       id: 5,
@@ -62,8 +62,8 @@ export default function Home() {
       deskripsi: "Sistem Digitalisasi Pendidikan",
       gambar: "/images/logo-edutren.png",
       buttonColor: "bg-[#B95C12]",
-      width : 90,
-      height : 70
+      width: 90,
+      height: 70,
     },
     {
       id: 6,
@@ -72,8 +72,8 @@ export default function Home() {
       deskripsi: "Sistem Pendaftaran Siswa Baru",
       gambar: "/images/ppdb.png",
       buttonColor: "bg-[#B95C12]",
-      width : 90,
-      height : 70
+      width: 90,
+      height: 70,
     },
   ];
 
